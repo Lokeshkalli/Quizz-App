@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Codedamn - Quiz Project</title>
+</head>
+
+<body>
+    <header>
+        <nav><a id=leaderboard>View Highscores <i class="fas fa-hand-point-left fa-lg"></i>
+        </i></a> 
+
+        <a id="Timer">Time: <span id="timer">01:00</span></a>
+    
+    
+    
+    </nav>
+         
+
+    </header>
+    <main>
+        <div class="questions" id="q_main"> 
+        <h2 id="question">Commonly used data types DO NOT include:</h2>
+        <button><p id="option1" class="option" value="">1.Strings</p></button>
+        <button><p id="option2" class="option" value="">2.Boolean</p></button>
+        <button><p id="option3" class="option" value="2">3. alerts</p></button>
+        <button><p id="option4" class="option" value="">4.Numbers</p></button>
+
+        </div>
+
+        <div id="scoreboard">
+
+          <h2>Scoreboard</h2>
+          <ol type="1">
+            <li>Your score : <span id="scoreb"></span></li>
+          </ol>
+
+          
+          <h3>Previous highscore : <span id="prevHigh"> 0</span></h3>
+          <div id="controls">
+            <button id="goback">Go Back</button> 
+          </div>
+
+        </div>
+        
+
+
+        <div class="intro" id="intro">
+        <h2 id="heading">Coding Quiz Challenge</h2>
+
+        <p id="para_1">Try to answer to following code-related questions within the time limit.</p>
+        <p id="para_2">Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+        <button type="button" id="button_1">Start Quiz</button>
+
+        </div>
+
+        <div id="check">
+            <hr>
+            <p id="result">Incorrect!!!</p>
+        </div>
+
+       
+        
+
+    </main>
+    <script type="module" src="fluke.js"></script>
+    <script type="module" src="questions.js"></script>
+    
+</body>
+
+</html>

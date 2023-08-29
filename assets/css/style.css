@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Manrope;
+
+}
+
+header{
+    background: #218380;
+    
+}
+
+nav{
+    padding: 20px 40px 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+
+main{
+    border: 1.5px solid rgba(128, 128, 128, 0.308);
+    margin: 100px auto;
+    max-width: 900px;
+    border-radius: 30px;
+    border-width: 2px;
+    padding: 20px;
+    -webkit-box-shadow: 7px 6px 18px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 6px 18px -8px rgba(0,0,0,0.75);
+box-shadow: 7px 6px 18px -8px rgba(0,0,0,0.75);
+   
+
+
+}
+
+
+.questions{
+    display: none;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px;
+}
+
+.option{
+    
+    text-align: left;
+    padding: 10px;
+    color: white;
+    letter-spacing: 1px;
+
+}
+
+
+.questions button{
+    margin-bottom: 5px;
+    background-color: #218380;
+    border: none;
+    border-radius: 8px;
+}
+
+
+.questions h2{
+    margin-bottom: 10px;
+}
+
+.intro >*{
+    margin: 12px;
+    font-weight: 800;
+}
+
+
+h2{
+    font-weight:900;
+    letter-spacing: 0.02em;
+
+}
+
+
+#button_1{
+    padding: 7px;
+    margin-top: 0;
+    border-radius: 7px;
+    height: 35px;
+    color: white;
+    border: none;
+    font-weight: 400;
+    background-color: #218380;
+}
+
+
+#check{
+    display: none;
+    transition:ease-out;
+}
+
+
+#scoreboard{
+    display: none;
+    flex-direction: column;
+    margin: 25px 50px;
+
+
+}
+
+#scoreboard ol{
+    padding: 10px 25px;
+}
+
+#controls button{
+    background: #218380;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    height: 35px;
+    padding: 5px;
+
+}
+

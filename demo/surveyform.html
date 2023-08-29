@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css" />
+    <script src="hello.js"></script>
+  </head>
+  <body>
+    <div class="m4">
+      <h1>Survey Form</h1>
+      <p>This is used to take survey</p>
+      <br />
+      <form id="survey-form">
+        <label for="name">Enter your name:</label>
+        <input type="name" id="name" placeholder="Your Name" required />
+        <label for="email" id="email">Enter your mail:</label>
+        <input type="email" id="email" placeholder="Your Email" required />
+        <br />
+        <label for="number" id="number">Number:</label>
+        <input type="number" min="0" max="10" required />
+        <select name="cars" id="cars">
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+        </select>
+        <br />
+        <div class="hi">
+        <input type="radio" name="fav_language" value="HTML" >
+        <label for="html" id="html">HTML</label>
+        <input type="radio" name="fav_language" value="CSS" >
+        <label for="css" id="css">CSS</label>
+        <input type="radio" name="fav_language" value="JavaScript" >
+        <label for="javascript" id="javascript">JavaScript</label>
+        </div>
+        <div class="hello">
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" >
+          <label for="vehicle1"> I have a bike</label>
+          <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" >
+          <label for="vehicle2"> I have a car</label>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+          <label for="vehicle3"> I have a boat</label>
+        </div>
+        <br />
+        <textarea id="area" rows="10" cols="40">Enter Your Text</textarea>
+        <br />
+        <input type="submit" id="submit" />
+      </form>
+    </div>
+  </body>
+</html>

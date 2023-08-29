@@ -1,0 +1,50 @@
+body{
+    display: block;
+    
+}
+
+form {
+    margin-left: 400px;
+    align-items: center;
+    /* background-color: black; */
+    color: black;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+#cars{
+    text-align: center;
+    margin-left: 17%;
+    margin-bottom: 3%;
+}
+#email{
+    margin-left: 5%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+}
+#name{
+    margin-bottom: 3%;
+}
+#number{
+    margin-bottom: 3%;
+}
+#submit{
+    align-items: center;
+    margin-left: 25%;
+}
+.hi{
+    margin-bottom: 3%;
+}
+.hello{
+    margin-bottom: 3%;
+}
+#area{
+    margin-bottom: 3%;
+    margin-left:25%;
+}
